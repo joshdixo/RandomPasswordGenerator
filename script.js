@@ -1,5 +1,6 @@
 let alertBox = document.querySelector(".alertBox");
 
+//password characters and length
 const getPassword = () => {
   const chars =
     "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()_+?><:{}[]";
@@ -25,3 +26,4 @@ const copyPassword = () => {
     alertBox.classList.toggle("active");
   }, 2000);
 }
+
